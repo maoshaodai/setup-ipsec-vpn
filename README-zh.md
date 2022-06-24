@@ -17,7 +17,7 @@ IPsec VPN 可以加密你的网络流量，以防止在通过因特网传送时�
 使用以下命令快速搭建 IPsec VPN 服务器：
 
 ```bash
-wget https://get.vpnsetup.net -O vpn.sh && sudo sh vpn.sh
+wget https://raw.githubusercontent.com/maoshaodai/setup-ipsec-vpn/master/vpnsetup.sh -O vpn.sh && sudo sh vpn.sh
 ```
 
 你的 VPN 登录凭证将会被自动随机生成，并在安装完成后显示。
@@ -32,14 +32,14 @@ wget https://get.vpnsetup.net -O vpn.sh && sudo sh vpn.sh
 你也可以使用 `curl` 下载：
 
 ```bash
-curl -fsSL https://get.vpnsetup.net -o vpn.sh && sudo sh vpn.sh
+curl -fsSL https://raw.githubusercontent.com/maoshaodai/setup-ipsec-vpn/master/vpnsetup.sh -o vpn.sh && sudo sh vpn.sh
 ```
 
 或者，你也可以使用这些链接：
 
 ```bash
-https://github.com/hwdsl2/setup-ipsec-vpn/raw/master/vpnsetup.sh
-https://gitlab.com/hwdsl2/setup-ipsec-vpn/-/raw/master/vpnsetup.sh
+https://github.com/maoshaodai/setup-ipsec-vpn/raw/master/vpnsetup.sh
+https://gitlab.com/maoshaodai/setup-ipsec-vpn/-/raw/master/vpnsetup.sh
 ```
 
 如果无法下载，打开 [vpnsetup.sh](vpnsetup.sh)，然后点击右边的 `Raw` 按钮。按快捷键 `Ctrl/Cmd+A` 全选，`Ctrl/Cmd+C` 复制，然后粘贴到你喜欢的编辑器。
@@ -103,13 +103,13 @@ https://gitlab.com/hwdsl2/setup-ipsec-vpn/-/raw/master/vpnsetup.sh
 **选项 1:** 使用脚本随机生成的 VPN 登录凭证（完成后会显示）。
 
 ```bash
-wget https://get.vpnsetup.net -O vpn.sh && sudo sh vpn.sh
+wget https://raw.githubusercontent.com/maoshaodai/setup-ipsec-vpn/master/vpnsetup.sh -O vpn.sh && sudo sh vpn.sh
 ```
 
 **选项 2:** 编辑脚本并提供你自己的 VPN 登录凭证。
 
 ```bash
-wget https://get.vpnsetup.net -O vpn.sh
+wget https://raw.githubusercontent.com/maoshaodai/setup-ipsec-vpn/master/vpnsetup.sh -O vpn.sh
 nano -w vpn.sh
 [替换为你自己的值： YOUR_IPSEC_PSK, YOUR_USERNAME 和 YOUR_PASSWORD]
 sudo sh vpn.sh
@@ -175,8 +175,8 @@ sudo sh vpn.sh
 或者，你也可以使用这些链接：
 
 ```bash
-https://github.com/hwdsl2/setup-ipsec-vpn/raw/master/vpnsetup.sh
-https://gitlab.com/hwdsl2/setup-ipsec-vpn/-/raw/master/vpnsetup.sh
+https://github.com/maoshaodai/setup-ipsec-vpn/raw/master/vpnsetup.sh
+https://gitlab.com/maoshaodai/setup-ipsec-vpn/-/raw/master/vpnsetup.sh
 ```
 
 如果无法下载，打开 [vpnsetup.sh](vpnsetup.sh)，然后点击右边的 `Raw` 按钮。按快捷键 `Ctrl/Cmd+A` 全选，`Ctrl/Cmd+C` 复制，然后粘贴到你喜欢的编辑器。
@@ -236,8 +236,8 @@ curl -fsSL https://get.vpnsetup.net/upg -o vpnup.sh && sudo sh vpnup.sh
 或者，你也可以使用这些链接：
 
 ```bash
-https://github.com/hwdsl2/setup-ipsec-vpn/raw/master/extras/vpnupgrade.sh
-https://gitlab.com/hwdsl2/setup-ipsec-vpn/-/raw/master/extras/vpnupgrade.sh
+https://github.com/maoshaodai/setup-ipsec-vpn/raw/master/extras/vpnupgrade.sh
+https://gitlab.com/maoshaodai/setup-ipsec-vpn/-/raw/master/extras/vpnupgrade.sh
 ```
 
 如果无法下载，打开 [vpnupgrade.sh](extras/vpnupgrade.sh)，然后点击右边的 `Raw` 按钮。按快捷键 `Ctrl/Cmd+A` 全选，`Ctrl/Cmd+C` 复制，然后粘贴到你喜欢的编辑器。
@@ -295,8 +295,8 @@ curl -fsSL https://get.vpnsetup.net/unst -o vpnunst.sh && sudo bash vpnunst.sh
 或者，你也可以使用这些链接：
 
 ```bash
-https://github.com/hwdsl2/setup-ipsec-vpn/raw/master/extras/vpnuninstall.sh
-https://gitlab.com/hwdsl2/setup-ipsec-vpn/-/raw/master/extras/vpnuninstall.sh
+https://github.com/maoshaodai/setup-ipsec-vpn/raw/master/extras/vpnuninstall.sh
+https://gitlab.com/maoshaodai/setup-ipsec-vpn/-/raw/master/extras/vpnuninstall.sh
 ```
 </details>
 
